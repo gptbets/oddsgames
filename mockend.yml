@@ -4,12 +4,8 @@ models:
     hasMany: [Comment]
     fake:
       _count: 20
-      title: loremWords
-      body: { loremWords: [3, 10] }
-    data: [
-        { title: some non-random title },
-        { title: some non-random title },
-      ]
+      odd_Max: { int: [22, 70] }
+      Multipla: { int: [4, 10] }
  
   Comment:
     belongsTo: [Post]

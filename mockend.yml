@@ -7,7 +7,7 @@ models:
       odd_Max: { int: [22, 70] }
       Multipla: { int: [4, 10] }
 
- Comment:
+Comment:
     belongsTo: [Post]
     fake:
       _count: 10     

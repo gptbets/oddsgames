@@ -1,7 +1,6 @@
 models:
   Post:
-    data: [{ title: 'Title 1' }, { title: 'Title 2' }]
-    fake:
+        fake:
       _count: 10
       cruzamentoID: { intOf: [161, 162, 163, 164, 165] }
       numbe_ticket: { intOf: [1, 10] }

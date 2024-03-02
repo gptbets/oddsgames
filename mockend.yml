@@ -1,7 +1,7 @@
 key: userkey123
 models:
   Post:
-    data: [{ cruzamentoID: '161' }, { number_ticket: '01' }]
+    data: [{ cruzamentoID: '161' }]
         fake:
       _count: 10
       Multipla: { int: [4, 10] }

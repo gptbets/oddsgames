@@ -13,8 +13,8 @@ models:
  
   Comment:
     belongsTo: [Post]
-    count: 100
     fake:
+      _count: 20
       email: email
       body: loremWords
  

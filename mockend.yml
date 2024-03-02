@@ -22,5 +22,6 @@ User:
     fake:
       _count: 5
       cruzamentoID: { intOf: [161, 162, 163, 164, 165] }
+      data_time_create: { dateTime: [2024-03-02T00:00:00Z, 2024-03-02T23:59:59Z] }
       
       

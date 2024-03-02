@@ -1,3 +1,4 @@
+key: 'userkey123'
 models:
   User:
     fake:
@@ -13,4 +14,3 @@ models:
       odd_Max: { int: [22, 70] }
       hour_game: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
       league: { stringOf: [Brasileirão, Libertadores, Copa do Brasil, Champions League, Copa Del Rey, Carioca, Paulistão, Copa do Mundo] }
-      

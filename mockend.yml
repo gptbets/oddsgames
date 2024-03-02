@@ -1,7 +1,8 @@
+key: 'userkey123'
 models:
-  Post:
-        fake:
-      _count: 10
+  User:
+    fake:
+      _count: 100
       cruzamentoID: { intOf: [161, 162, 163, 164, 165] }
       numbe_ticket: { intOf: [1, 10] }
       Multipla: { int: [4, 10] }

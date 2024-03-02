@@ -2,7 +2,7 @@ models:
   Post: 
     belongsTo: [User]
     hasMany: [Comment]
-    count: 50
+    count: 20
     fake:
       title: loremWords
       body: { loremWords: [3, 10] }

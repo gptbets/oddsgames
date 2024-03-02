@@ -1,9 +1,9 @@
 key: userkey123
 models:
   User:
-  cruzamentoID: { intOf: [161, 162, 163, 164, 165] }
-    fake:
+      fake:
       _count: 200
+      cruzamentoID: { intOf: [161, 162, 163, 164, 165] }
       conjuntoID: { intOf: [161, 162, 163, 164, 165] }
       numbe_ticket: { intOf: [1, 10] }
       Multipla: { int: [4, 10] }

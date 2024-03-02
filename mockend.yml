@@ -1,6 +1,6 @@
 key: userkey123
 models:
-  Psot:
+  Post:
     data: [{ cruzamentoID: '161' }, { number_ticket: '01' }]
         fake:
       _count: 10

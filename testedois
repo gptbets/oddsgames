@@ -1,6 +1,6 @@
 key: 'userkey123'
 models:
-  User:
+  Post:
     fake:
       _count: 100
       cruzamentoID: { intOf: [161, 162, 163, 164, 165] }

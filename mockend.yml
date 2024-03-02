@@ -4,6 +4,5 @@ models:
     hasMany: [Comment]
     fake:
       _count: 100
-      numbe_ticket: { intOf: [1, 100] }
       odd_Max: { int: [22, 70] }
       Multipla: { int: [4, 10] }

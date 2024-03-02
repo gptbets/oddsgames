@@ -1,8 +1,7 @@
 key: userkey123
 models:
   User:
-    data: [{ cruzamentoID: '161' }]
-    data: [{ number_ticket: '01' }]
+    data: [{ cruzamentoID: '161' }, { number_ticket: '01'' }]
     fake:
       _count: 10
       data_create: { dateTime: [2024-03-02T00:00:00Z, 2024-03-02T23:59:59Z] }

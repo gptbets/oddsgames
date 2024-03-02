@@ -7,7 +7,6 @@ models:
     data_create: { dateTime: [2024-03-02T00:00:00Z, 2024-03-02T23:59:59Z] }
     Multipla: { int: [4, 10] }
     odd_Max: { int: [22, 70] }
-    fake:
       _count: 10
       number_game: { intOf: [1, 10] }
       team_1_name: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }

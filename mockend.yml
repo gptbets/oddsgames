@@ -21,3 +21,5 @@ models:
   User:
     hasMany: [Post]
     data: [{ name: Alice }]
+    fake:
+      _count: 20

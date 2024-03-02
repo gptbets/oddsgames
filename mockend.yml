@@ -1,5 +1,6 @@
 models:
   User:
+  data: [{ title: 'Title 1' }, { title: 'Title 2' }]
     fake:
       _count: 10
       cruzamentoID: { intOf: [161, 162, 163, 164, 165] }

@@ -3,7 +3,7 @@ models:
     data: [{ title: 'Title 1' }, { title: 'Title 2' }]
     fake:
       _count: 10
-      cruzamentoID: { intOf: [161, 162, 163, 164, 165] }
+      cruzamentoID: { int: [164] }
       numbe_ticket: { intOf: [1, 10] }
       Multipla: { int: [4, 10] }
       team_1_name: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }

@@ -1,9 +1,9 @@
 key: userkey123
 models:
   User:
+    data: [{ cruzamentoID: '161' }]
     fake:
-      _count: 100
-      cruzamentoID: { intOf: [161, 162, 163, 164, 165] }
+      _count: 10
       number_ticket: { intOf: [1, 100] }
       Multipla: { int: [4, 10] }
       number_game: { intOf: [1, 10] }

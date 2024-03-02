@@ -2,4 +2,4 @@ models:
   User:
     fake:
     _count: 1
-    cruzamentoID: { intOf: [161, 162, 163] }
+    cruzamentoID: { int: [161, 162, 163] }

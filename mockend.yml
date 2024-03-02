@@ -2,9 +2,5 @@ models:
   User:
     fake:
       _count: 10
-       cruzamento_id: { int: [161, 162, 163] }
-       data_time_create: { dateTime: [2024-03-02T00:00:00Z, 2024-03-02T23:59:59Z] }
-       hour_time_create: hour
-       number_tickets: { int: [10, 100] }
        team_1_name: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
        team_2_name: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }

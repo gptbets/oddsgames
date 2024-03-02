@@ -1,23 +1,15 @@
 models:
-  Post: 
-    belongsTo: [User]
-    hasMany: [Comment]
+  Post:
     fake:
-      _count: 20
-      title: loremWords
-      body: { loremWords: [3, 10] }
-    data: [
-        { title: some non-random title },
-        { title: some non-random title },
-      ]
- 
-  Comment:
-    belongsTo: [Post]
-    count: 100
-    fake:
-      email: email
-      body: loremWords
- 
-  User:
-    hasMany: [Post]
-    data: [{ name: Alice }]
+      _count: 100
+      cruzamentoID: { intOf: [161, 162, 163, 164, 165] }
+      numbe_ticket: { intOf: [1, 10] }
+      Multipla: { int: [4, 10] }
+      team_1_name: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
+      team_2_name: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
+      data_time_create: { dateTime: [2024-03-02T00:00:00Z, 2024-03-02T23:59:59Z] }
+      odd_result: { floatOf: [1.1, 1.4, 1.8, 1.9, 2.0, 2.2, 2.4, 2.8, 3.0, 3.1, 3.3, 3.7] }
+      result_odd: { stringOf: [Empate, Empate, Empate, Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira, Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
+      odd_Max: { int: [22, 70] }
+      hour_game: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
+      league: { stringOf: [Brasileirão, Libertadores, Copa do Brasil, Champions League, Copa Del Rey, Carioca, Paulistão, Copa do Mundo] }

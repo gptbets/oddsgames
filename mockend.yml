@@ -6,3 +6,4 @@ models:
       team_1_name: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       hour_time_create: hour
+      data_time_create: { dateTime: [2024-03-02T00:00:00Z, 2024-03-02T23:59:59Z] }

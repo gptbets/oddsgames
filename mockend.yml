@@ -1,7 +1,6 @@
 models:
   User:
-  hasMany: [Post]
-    fake:
+      fake:
       _count: 5
       cruzamentoID: { intOf: [161, 162, 163, 164, 165] }
       numbe_ticket: { intOf: [1, 10] }
@@ -10,7 +9,7 @@ models:
 Post:
     belongsTo: [User]
     fake:
-      _count: 25
+      _count: 100
       team_1_name: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       data_time_create: { dateTime: [2024-03-02T00:00:00Z, 2024-03-02T23:59:59Z] }

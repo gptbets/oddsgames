@@ -1,6 +1,6 @@
 models:
   User:
     fake:
-    _count: 2
-    cruzamento_id: { int: [1, 3] }
-    data_time_create: { dateTime: [2024-03-02T00:00:00Z, 2024-03-02T23:59:59Z] }
+      _count: 500
+      team_1_name: firstName
+      team_2_name: lastName

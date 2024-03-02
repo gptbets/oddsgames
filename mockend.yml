@@ -1,5 +1,5 @@
 models:
   User:
     fake:
-    _count: 1
-    cruzamentoID: { int: [161, 162, 163] }
+    _count: 2
+    cruzamento_id: { int: [161, 162, 163] }

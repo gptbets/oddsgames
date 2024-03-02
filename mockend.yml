@@ -1,10 +1,8 @@
 models:
   User:
-    data: [{ title: 'Title 1' }, { title: 'Title 2' }]
     fake:
-      _count: 10
+      _count: 100
       cruzamentoID: { intOf: [164, 164] }
-      numbe_ticket: { intOf: [1, 10] }
       Multipla: { int: [4, 10] }
       team_1_name: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }

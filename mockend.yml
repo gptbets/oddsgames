@@ -3,7 +3,7 @@ models:
     belongsTo: [User]
     hasMany: [Comment]
     fake:
-      _count: 30
+      _count: 100
       odd_Max: { int: [22, 70] }
       Multipla: { int: [4, 10] }
       number_ticket: { intOf: [161, 162, 163, 164, 165] }

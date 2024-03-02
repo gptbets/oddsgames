@@ -1,6 +1,6 @@
 models:
   User:
-  hasMany: [post]
+  hasMany: [Post]
     fake:
       _count: 5
       cruzamentoID: { intOf: [161, 162, 163, 164, 165] }

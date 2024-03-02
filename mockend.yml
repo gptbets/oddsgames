@@ -1,11 +1,10 @@
 models:
   User:
-      fake:
-      _count: 5
+    fake:
+      _count: 100
       cruzamentoID: { intOf: [161, 162, 163, 164, 165] }
       numbe_ticket: { intOf: [1, 10] }
       Multipla: { int: [4, 10] }
-      data_time_create: { dateTime: [2024-03-02T00:00:00Z, 2024-03-02T23:59:59Z] }
       team_1_name: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       data_time_create: { dateTime: [2024-03-02T00:00:00Z, 2024-03-02T23:59:59Z] }
@@ -14,4 +13,3 @@ models:
       odd_Max: { int: [22, 70] }
       hour_game: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
       league: { stringOf: [Brasileirão, Libertadores, Copa do Brasil, Champions League, Copa Del Rey, Carioca, Paulistão, Copa do Mundo] }
-      

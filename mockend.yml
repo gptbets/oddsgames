@@ -1,3 +1,4 @@
+key: userkey123
 models:
   User:
     fake:

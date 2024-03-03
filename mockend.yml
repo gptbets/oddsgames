@@ -9,7 +9,7 @@ models:
       team_2_odd: { floatOf: [2.3, 1.5, 4.8, 3.7, 5.2, 6.9, 7.4, 8.1, 9.2, 1.6, 2.4, 3.3, 4.7, 5.5, 6.8, 7.1, 8.9, 9.2, 1.3, 2.5, 3.6, 4.2, 5.7, 6.1, 7.8, 8.4, 9.3, 1.9, 2.2, 3.4] }
       team_1_logo: { imageURL: [32, 32] }
       team_2_logo: { imageURL: [32, 32] }
-      logo_zone: {numerify: [https://cdn.oddspedia.com/images/teams/medium/1/##.png]}
+      logo_zone: numerify: 'https://cdn.oddspedia.com/images/teams/medium/1/##.png'
       zone: { stringOf: [Brasil, Argentina, Alemanha, Itália, França, Espanha, Inglaterra, Uruguai, Holanda, Portugal, Bélgica, México, Suécia, Rússia, Croácia, Colômbia, Chile, Dinamarca, Nigéria, Camarões] }
       league: { stringOf: [Campeonato Brasileiro, Libertadores da América, Copa do Brasil, Champions League, Copa Del Rey, Campeonato Carioca, Campeonato Paulista, Copa do Mundo, Europa League, Premier League, La Liga, Serie A Itáliana, Bundesliga, Ligue 1, FA Cup, Copa América, Eurocopa, Mundial de Clubes da FIFA, Supercopa da UEFA, Campeonato Argentino, Copa da Inglaterra, Campeonato Espanhol, Campeonato Italiano, Campeonato Alemão, Campeonato Francês, Copa da Liga Inglesa, Copa da Alemanha, Copa da Itália, Copa da França, Supercopa da Espanha]}
       datetime: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }

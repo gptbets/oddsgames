@@ -10,6 +10,6 @@ models:
       team_1_logo: { imageURL: [32, 32] }
       team_2_logo: { imageURL: [32, 32] }
       zone: country
-      league: company
+      league: { stringOf: [Campeonato Brasileiro, Libertadores da América, Copa do Brasil, Champions League, Copa Del Rey, Campeonato Carioca, Campeonato Paulista, Copa do Mundo, Europa League, Premier League, La Liga, Serie A Itáliana, Bundesliga, Ligue 1, FA Cup, Copa América, Eurocopa, Mundial de Clubes da FIFA, Supercopa da UEFA, Campeonato Argentino, Copa da Inglaterra, Campeonato Espanhol, Campeonato Italiano, Campeonato Alemão, Campeonato Francês, Copa da Liga Inglesa, Copa da Alemanha, Copa da Itália, Copa da França, Supercopa da Espanha]}
       datetime: { int: [10, 22] }
       data_game: { dateTime: [2024-03-02T00:00:00Z, 2024-03-08T23:59:59Z] }

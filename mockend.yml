@@ -1,8 +1,8 @@
 models:
   User:
     fake:
-      _count: 100
-      cruzamentoID: { intOf: [164, 164] }
+      _count: 200
+      cruzamentoID: { intOf: [164, 165] }
       data_time_create: { dateTime: [2024-03-02T09:10:00Z, 2024-03-02T09:10:00Z] }
       Multipla: { int: [4, 10] }
       team_1_name: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }

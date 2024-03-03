@@ -7,70 +7,70 @@ models:
       Multipla: { int: [4, 10] }
       team_1_name: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
-      odd_result: { floatOf: [1.1, 1.4, 1.8, 1.9, 2.0, 2.2, 2.4, 2.8, 3.0, 3.1, 3.3, 3.7] }
+      odd_result: { floatOf: [1.2, 1.4, 1.8, 1.9, 2.4, 2.2, 2.4, 2.8, 3.5, 3.1, 3.3, 3.7] }
       result_odd: { stringOf: [Empate, Empate, Empate, Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira, Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       odd_Max: { int: [22, 70] }
       hour_game: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
       league: { stringOf: [Brasileirão, Libertadores, Copa do Brasil, Champions League, Copa Del Rey, Carioca, Paulistão, Copa do Mundo] }
       team_1_name2: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name2: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
-      odd_result2: { floatOf: [1.1, 1.4, 1.8, 1.9, 2.0, 2.2, 2.4, 2.8, 3.0, 3.1, 3.3, 3.7] }
+      odd_result2: { floatOf: [1.2, 1.4, 1.8, 1.9, 2.4, 2.2, 2.4, 2.8, 3.5, 3.1, 3.3, 3.7] }
       result_odd2: { stringOf: [Empate, Empate, Empate, Botafogo, Botafogo, Botafogo, Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira, Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       odd_Max2: { int: [22, 70] }
       hour_game2: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
       league2: { stringOf: [Brasileirão, Libertadores, Copa do Brasil, Champions League, Copa Del Rey, Carioca, Paulistão, Copa do Mundo] }
       team_1_name3: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name3: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
-      odd_result3: { floatOf: [1.1, 1.4, 1.8, 1.9, 2.0, 2.2, 2.4, 2.8, 3.0, 3.1, 3.3, 3.7] }
+      odd_result3: { floatOf: [1.2, 1.4, 1.8, 1.9, 2.4, 2.2, 2.4, 2.8, 3.5, 3.1, 3.3, 3.7] }
       result_odd3: { stringOf: [Empate, Empate, Empate, Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira, Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       odd_Max3: { int: [22, 70] }
       hour_game3: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
       league3: { stringOf: [Brasileirão, Libertadores, Copa do Brasil, Champions League, Copa Del Rey, Carioca, Paulistão, Copa do Mundo] }
       team_1_name4: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name4: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
-      odd_result4: { floatOf: [1.1, 1.4, 1.8, 1.9, 2.0, 2.2, 2.4, 2.8, 3.0, 3.1, 3.3, 3.7] }
+      odd_result4: { floatOf: [1.2, 1.4, 1.8, 1.9, 2.4, 2.2, 2.4, 2.8, 3.5, 3.1, 3.3, 3.7] }
       result_odd4: { stringOf: [Empate, Empate, Empate, Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira, Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       odd_Max4: { int: [22, 70] }
       hour_game4: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
       league4: { stringOf: [Brasileirão, Libertadores, Copa do Brasil, Champions League, Copa Del Rey, Carioca, Paulistão, Copa do Mundo] }
       team_1_name5: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name5: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
-      odd_result5: { floatOf: [1.1, 1.4, 1.8, 1.9, 2.0, 2.2, 2.4, 2.8, 3.0, 3.1, 3.3, 3.7] }
+      odd_result5: { floatOf: [1.2, 1.4, 1.8, 1.9, 2.4, 2.2, 2.4, 2.8, 3.5, 3.1, 3.3, 3.7] }
       result_odd5: { stringOf: [Empate, Empate, Empate, Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira, Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       odd_Max5: { int: [22, 70] }
       hour_game5: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
       league5: { stringOf: [Brasileirão, Libertadores, Copa do Brasil, Champions League, Copa Del Rey, Carioca, Paulistão, Copa do Mundo] }
       team_1_name6: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name6: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
-      odd_result6: { floatOf: [1.1, 1.4, 1.8, 1.9, 2.0, 2.2, 2.4, 2.8, 3.0, 3.1, 3.3, 3.7] }
+      odd_result6: { floatOf: [1.2, 1.4, 1.8, 1.9, 2.4, 2.2, 2.4, 2.8, 3.5, 3.1, 3.3, 3.7] }
       result_odd6: { stringOf: [Empate, Empate, Empate, Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira, Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       odd_Max6: { int: [22, 70] }
       hour_game6: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
       league6: { stringOf: [Brasileirão, Libertadores, Copa do Brasil, Champions League, Copa Del Rey, Carioca, Paulistão, Copa do Mundo] }
       team_1_name7: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name7: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
-      odd_result7: { floatOf: [1.1, 1.4, 1.8, 1.9, 2.0, 2.2, 2.4, 2.8, 3.0, 3.1, 3.3, 3.7] }
+      odd_result7: { floatOf: [1.2, 1.4, 1.8, 1.9, 2.4, 2.2, 2.4, 2.8, 3.5, 3.1, 3.3, 3.7] }
       result_odd7: { stringOf: [Empate, Empate, Empate, Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira, Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       odd_Max7: { int: [22, 70] }
       hour_game7: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
       league7: { stringOf: [Brasileirão, Libertadores, Copa do Brasil, Champions League, Copa Del Rey, Carioca, Paulistão, Copa do Mundo] }
       team_1_name8: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name8: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
-      odd_result8: { floatOf: [1.1, 1.4, 1.8, 1.9, 2.0, 2.2, 2.4, 2.8, 3.0, 3.1, 3.3, 3.7] }
+      odd_result8: { floatOf: [1.2, 1.4, 1.8, 1.9, 2.4, 2.2, 2.4, 2.8, 3.5, 3.1, 3.3, 3.7] }
       result_odd8: { stringOf: [Empate, Empate, Empate, Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira, Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       odd_Max8: { int: [22, 70] }
       hour_game8: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
       league8: { stringOf: [Brasileirão, Libertadores, Copa do Brasil, Champions League, Copa Del Rey, Carioca, Paulistão, Copa do Mundo] }
       team_1_name9: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name9: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
-      odd_result9: { floatOf: [1.1, 1.4, 1.8, 1.9, 2.0, 2.2, 2.4, 2.8, 3.0, 3.1, 3.3, 3.7] }
+      odd_result9: { floatOf: [1.2, 1.4, 1.8, 1.9, 2.4, 2.2, 2.4, 2.8, 3.5, 3.1, 3.3, 3.7] }
       result_odd9: { stringOf: [Empate, Empate, Empate, Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira, Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       odd_Max9: { int: [22, 70] }
       hour_game9: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
       league9: { stringOf: [Brasileirão, Libertadores, Copa do Brasil, Champions League, Copa Del Rey, Carioca, Paulistão, Copa do Mundo] }
       team_1_name10: { stringOf: [Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira] }
       team_2_name10: { stringOf: [Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
-      odd_result10: { floatOf: [1.1, 1.4, 1.8, 1.9, 2.0, 2.2, 2.4, 2.8, 3.0, 3.1, 3.3, 3.7] }
+      odd_result10: { floatOf: [1.2, 1.4, 1.8, 1.9, 2.4, 2.2, 2.4, 2.8, 3.5, 3.1, 3.3, 3.7] }
       result_odd10: { stringOf: [Empate, Empate, Empate, Vasco, Flamengo, Goias, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madri, Bangu, América, Madureira, Fluminense, Vitória, Bragantino, Botafogo-RP, Boca Juniors, 15 de Piracicana, Ibis, Olaria, Bangu, América, Madureira] }
       odd_Max10: { int: [22, 70] }
       hour_game10: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }

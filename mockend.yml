@@ -13,4 +13,4 @@ models:
       zone: { stringOf: [Brasil, Argentina, Alemanha, Itália, França, Espanha, Inglaterra, Uruguai, Holanda, Portugal, Bélgica, México, Suécia, Rússia, Croácia, Colômbia, Chile, Dinamarca, Nigéria, Camarões] }
       league: { stringOf: [Campeonato Brasileiro, Libertadores da América, Copa do Brasil, Champions League, Copa Del Rey, Campeonato Carioca, Campeonato Paulista, Copa do Mundo, Europa League, Premier League, La Liga, Serie A Itáliana, Bundesliga, Ligue 1, FA Cup, Copa América, Eurocopa, Mundial de Clubes da FIFA, Supercopa da UEFA, Campeonato Argentino, Copa da Inglaterra, Campeonato Espanhol, Campeonato Italiano, Campeonato Alemão, Campeonato Francês, Copa da Liga Inglesa, Copa da Alemanha, Copa da Itália, Copa da França, Supercopa da Espanha]}
       datetime: { stringOf: [10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:00] }
-      data_game: { dateTime: [2024-03-03T00:00:00Z, 2024-03-09T23:59:59Z] }
+      data_game: { dateTime: [2024-04-03T00:00:00Z, 2024-03-09T23:59:59Z] }

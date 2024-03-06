@@ -1,7 +1,7 @@
 models:
   User:
     fake:
-      _count: 500
+      _count: 100
       team_1_name: { stringOf: [Vasco, Flamengo, Goiás, Barcelona, Botafogo, São Paulo, Olympiacos, Real Madrid, Bangu, América, Madureira, Liverpool, Juventus, Chelsea, Arsenal, Borussia Dortmund, Paris Saint-Germain, Manchester City, Atlético Madrid, Inter Milan, AC Milan, Benfica, Porto, Ajax, River Plate, Boca Juniors, Corinthians, Palmeiras, Flamengo, Santos] }
       team_2_name: { stringOf: [Celtic, Rangers, Sevilla, Valencia, Napoli, Lazio, Roma, Bayer Leverkusen, RB Leipzig, Monaco, Marseille, Lyon, Galatasaray, Fenerbahçe, Besiktas, Shakhtar Donetsk, Zenit Petersburgo, CSKA Moscou, Club Brugge, Anderlecht, PSV Eindhoven, Feyenoord, Grêmio, Internacional, Atlético Mineiro, Cruzeiro, Tigres UANL, Club América, LA Galaxy, New York City FC] }
       team_1_odd: { floatOf: [2.3, 1.5, 4.8, 3.7, 5.2, 6.9, 7.4, 8.1, 9.2, 1.6, 2.4, 3.3, 4.7, 5.5, 6.8, 7.1, 8.9, 9.2, 1.3, 2.5, 3.6, 4.2, 5.7, 6.1, 7.8, 8.4, 9.3, 1.9, 2.2, 3.4] }
